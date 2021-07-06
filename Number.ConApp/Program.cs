@@ -28,6 +28,14 @@ namespace Number.ConApp
             {
                 output = "Es ist keine pefekte Zahl. ";
             }
+            if(Number.Logic.NumberPropertie.IsPrme(number))
+            {
+                output += " \n Es ist eine Primzahl. ";
+            }
+            else
+            {
+                output += "\n Es ist keine Primzahl. ";
+            }
             Console.WriteLine(output);
             // Ausgabe(A)
         }
